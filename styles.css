@@ -1,0 +1,93 @@
+body {
+    background-image: url(images/scrollImage.jpg);
+    background-size: cover;
+    text-align: center;
+    /* height: 100vh; */
+}
+
+.barExtender {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.navlabel {
+    font-family: 'Texturina', serif;
+}
+
+i {
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+}
+
+.borderImg {
+    border-radius: 100%;
+    margin-right: 80px;
+}
+
+.image {
+    height: 809.88px;
+    width: 1200px;
+    opacity: 0.5;
+}
+
+.borderh2 {
+    font-family: 'Yellowtail', cursive;
+    color:#fff; 
+    text-align: center;
+    border: 3px outset white;
+     
+}
+
+.lg-text {
+    font-family: 'Yellowtail', cursive;
+    color:#fff; 
+    text-align: center;
+    border: 3px outset white;
+     
+}
+
+.aboutMeText {
+    font-family: 'Texturina', serif;
+    color:#fff; 
+    text-align: center;
+}
+
+.title-size {
+    font-family: 'Yellowtail', cursive;
+    color:#fff;
+    font-size: 500%;
+    width: 100%;
+   
+}
+
+.overlay { 
+    position: absolute;
+    z-index:12;
+    top:50%;
+    left:0;
+    width:100%;
+    text-align:center;
+} 
+
+.margin-bit {
+    margin-bottom: 2rem;
+}
+
+.projectImage {
+    padding: 2%, 3%;
+    position: absolute, left;
+    outline-style: outset;
+    outline-width: 7px;
+    color: white;
+}
+
+.footerExtend {
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+
+.texturina-text {
+    font-family: 'Texturina', serif;
+}
+

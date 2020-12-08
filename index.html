@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ryan's Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+</head>
+
+    <body>
+        <div>
+        <div class="container-fluid barExtender">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#PortfolioNav" aria-controls="PortfolioNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="PortfolioNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white navlabel" href="#aboutMe">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white navlabel" href="#projectsWorks">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white navlabel" href="">Contact</a>
+                        </li> 
+                    </ul>
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <img class="borderImg" src="./images/spiral.gif" width="30" height="30" alt="spiral">
+                        </li>
+                    </ul> 
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="https://github.com/ryanstorm013" target="_blank"><i class="fab fa-github-square"></i></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="https://www.linkedin.com/in/ryan-r-96177a157/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+  
+        
+
+        <div class="row margin-bit" >
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                
+                <div class="carousel-inner">
+                    <div class="overlay">
+                        <h1 class="title-size">Welcome!</h1>
+                    </div>
+                  <div class="carousel-item active">
+                    <img class="image d-block w-100" src="./images/art1.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item carousel-img ">
+                    <img class="image d-block w-100" src="./images/art2.jpg" alt="Second slide">
+                  </div>
+                  
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+        </div>
+
+        <div class="container-fluid" >
+                <div class="worksBod borderh2" id="projectsWorks">
+                    <h2 class="text-center">Projects & Websites</h2>
+                </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-12 mt-3">
+                    <a href="https://ryanstorm013.github.io/Project-1-/" target="_blank">
+                        <img class="projectImage"src="./images/sitePicture.png" width="550" height="300" alt="First Picture">
+                    </a>
+                </div>
+                <div class="col-xl-4 col-lg-12 mt-3">
+                    <a href="https://ryanstorm013.github.io/HMW4/" target="_blank">
+                        <img class="projectImage" src="./images/Intro.png"  width="550" height="300" alt="Second Picture">
+                    </a>
+                </div>
+                <div class="col-xl-4 col-lg-12 mt-3">
+                    <a href="https://ryanstorm013.github.io/HW2/" target="_blank">
+                        <img class="projectImage" src="./images/oldPortfolio.png"  width="550" height="300" alt="Third Picture">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                    
+                <div class="col-xl-6 col-lg-12  mt-3">
+                    <a href="https://ryanstorm013.github.io/HW5/" target="_blank">
+                        <img class="projectImage" src="./images/schedule.png"  width="550" height="300" alt="Fifth Picture">
+                    </a>
+                </div>
+                <div class="col-xl-6 col-lg-12  mt-3">
+                    <a href="https://ryanstorm013.github.io/HW3/" target="_blank">
+                        <img class="projectImage" src="./images/password.png"  width="550" height="300" alt="Sixth Picture">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mt-5 container-fluid">
+            <div class="worksBod" id="aboutMe">       
+                <h1 class="lg-text text-center">About Me</h1>
+            </div>
+            <img class="projectImage" src="./images/myPicture.JPG" width="250" height="250" alt="Third Picture">
+            <div class="col-md-8 mx-auto">
+            <h2 class="aboutMeText">I'm Ryan Reyes, I am currently a Web-Developer in my free time. I am still new when it comes to web-development and want to become a full-stack developer in the future.</h2>
+            <h2 class="aboutMeText">I will continue to improve and further push my abilities into projects and other work sites. Improving my experience is always my number one goal.</h2>
+            <h2 class="aboutMeText">I enjoy designing and understanding concepts, including music. I like music.</h2>
+            </div>
+        </div>
+
+        <div class="mt-5 container-fluid">
+            <div class="worksBod" id="contact">       
+                <h1 class="lg-text text-center">Contact</h1>
+            </div>
+            <form action="mailto:ryanstorm013@gmail.com" method = "post" enctype = "text/plain">
+                <div class="form-group row">
+                    <div class="col-md-6 col-sm-4 mx-auto">
+                        <input type="text" class="form-control" id="nameInput" placeholder="Name">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-md-6 col-sm-4 mx-auto">
+                        
+                        <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-md-6 col-sm-4 mx-auto">
+                        
+                        <textarea type="text" class="form-control" id="messageInput" rows="3" placeholder="Message"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" onclick="location.href='submitted.html'"  class="btn btn-dark texturina-text">Submit</button>
+            </form>
+
+        </div>
+
+        <div class="container-fluid barExtender mt-5">
+            
+            <footer class="bg-dark footerExtend ">
+                <p class="text-light text-center">© Copyright</p>
+            </footer>
+            
+        </div>
+        </div>
+    </body>
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</html>
