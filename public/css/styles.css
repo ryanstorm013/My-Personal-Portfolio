@@ -1,8 +1,12 @@
 body {
-    background-image: url(images/scrollImage.jpg);
+    background-image: url(../images/scrollImage.jpg);
     background-size: cover;
     text-align: center;
+    background-repeat: no-repeat;
+ 
     /* height: 100vh; */
+    /* margin: 0; */
+    padding-right: 15px;
 }
 
 .barExtender {
@@ -27,7 +31,7 @@ i {
 
 .image {
     height: 809.88px;
-    width: 1200px;
+    width: 1000px;
     opacity: 0.5;
 }
 
@@ -65,7 +69,7 @@ i {
     position: absolute;
     z-index:12;
     top:50%;
-    left:0;
+    /* left:0; */
     width:100%;
     text-align:center;
 } 
@@ -85,6 +89,8 @@ i {
 .footerExtend {
     padding-top: 12px;
     padding-bottom: 5px;
+    /* padding-left: 4%; */
+    margin-right: -15px;
 }
 
 .texturina-text {
